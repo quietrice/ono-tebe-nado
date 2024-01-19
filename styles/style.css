@@ -19,7 +19,7 @@ header {
     padding-left: 50px;
     padding-right: 50px;
     height: 105px;
-    max-width: 1052px; 
+    max-width: 1052px;
 }
 
 .header__links-list {
@@ -76,7 +76,7 @@ header {
     z-index: -1;
     position: absolute;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.6); 
+    background: rgba(0, 0, 0, 0.6);
     width: 100%;
     color: white;
     height: 100%;
@@ -132,7 +132,7 @@ header {
     color: #fff;
 }
 
-.bet-button{
+.bet-button {
     color:#fff;
     border: 1px solid #FFF;
     font-size: 22px;
@@ -244,7 +244,7 @@ header {
 
 .about__logo {
     align-self: center;
-    justify-self: center; 
+    justify-self: center;
     position: relative;
     display: flex;
     align-items: center;
