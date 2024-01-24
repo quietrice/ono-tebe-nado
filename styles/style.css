@@ -1,5 +1,5 @@
 body {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     width: 1100px;
 }
@@ -336,7 +336,6 @@ footer {
     grid-template-columns: 1fr auto 1fr;
     gap: 185px;
     width: 1000px;
-    /* margin-top: 180px; */
     margin-bottom: 100px;
 }
 
