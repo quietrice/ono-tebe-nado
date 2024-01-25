@@ -87,8 +87,8 @@ address {
     z-index: -2;
     height: 100%;
     width: 100%;
-    background-position: 50% 50%; 
-    background-size: 125%; 
+    background-position: 50% 50%;
+    background-size: 125%;
     background-repeat: no-repeat;
 }
 
@@ -244,7 +244,7 @@ address {
     z-index: -2;
     height: 100%;
     width: 100%;
-    background-position: 50% 50%; 
+    background-position: 50% 50%;
     background-size: 165%;
 }
 
@@ -291,7 +291,7 @@ address {
 }
 
 .about__logo {
-    justify-self: center;    
+    justify-self: center;
 }
 
 .about__logo-image {
