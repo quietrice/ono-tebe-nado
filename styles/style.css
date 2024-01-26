@@ -204,7 +204,6 @@ address {
     flex-direction: column;
     z-index: 1;
     position: absolute;
-    z-index: -3;
     height: 100%;
     width: 100%;
     background-position: 50% 50%;
@@ -302,7 +301,7 @@ address {
 
 .about__text {
     font-family: 'Raleway', sans-serif;
-    display: flex;
+    disp    lay: flex;
     flex-direction: column;
     grid-column-start: 2;
     grid-column-end: 3;
