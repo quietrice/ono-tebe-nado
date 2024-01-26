@@ -301,7 +301,7 @@ address {
 
 .about__text {
     font-family: 'Raleway', sans-serif;
-    disp    lay: flex;
+    display: flex;
     flex-direction: column;
     grid-column-start: 2;
     grid-column-end: 3;
