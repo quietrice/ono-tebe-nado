@@ -38,17 +38,18 @@ main {
     justify-self: start;
 }
 
-.header__links-list-item {
-    text-decoration: none;
-}
-
 .header__links-list-item_no-bullit {
     list-style-type: none;
 }
 
-.header__link_active {
+.header__link {
     border-bottom: 1.4px black solid;
     letter-spacing: 0.18px;
+    text-decoration: none;
+}
+
+.header__link_active {
+    text-decoration: none;
 }
 
 .header__logo {
@@ -79,17 +80,11 @@ address {
     position: relative;
     width: 1100px;
     min-height: 757px;
-}
-
-.cover__image {
     background-image: url("../images/cover.jpg");
-    position: absolute;
-    z-index: -2;
-    height: 100%;
-    width: 100%;
     background-position: 50% 50%;
     background-size: 125%;
     background-repeat: no-repeat;
+    z-index: -2;
 }
 
 .overlay {
@@ -201,12 +196,23 @@ address {
     max-width: 1052px;
 }
 
+/* Формат фонового изображени */
 .card {
     display: flex;
     text-align: center;
     justify-content: space-between;
     flex-direction: column;
     z-index: 1;
+    position: absolute;
+    z-index: -3;
+    height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: 165%;
+}
+
+/* Размер карточки */
+.card__size {
     position: relative;
     width: 334px;
     min-height: 563px;
@@ -234,29 +240,14 @@ address {
 }
 
 .card_type_film {
-    object-fit: contain;
-    text-align: center;
-}
-
-/* Формат фонового изображени */
-.card__img {
-    position: absolute;
-    z-index: -2;
-    height: 100%;
-    width: 100%;
-    background-position: 50% 50%;
-    background-size: 165%;
-}
-
-.card__img-film {
     background-image: url("../images/card-lot-01.jpg");
 }
 
-.card__img-book {
+.card_type_book {
     background-image: url("../images/card-lot-02.jpg");
 }
 
-.card__img-picture {
+.card_type_picture {
     background-image: url("../images/card-lot-03.jpg");
 }
 
