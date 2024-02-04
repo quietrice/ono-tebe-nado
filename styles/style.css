@@ -50,6 +50,7 @@ main {
 
 .header__link_active {
     text-decoration: none;
+    border-bottom: 0;
 }
 
 .header__logo {
@@ -84,7 +85,7 @@ address {
     background-position: 50% 50%;
     background-size: 125%;
     background-repeat: no-repeat;
-    z-index: -2;
+    z-index: 0;
 }
 
 .overlay {
